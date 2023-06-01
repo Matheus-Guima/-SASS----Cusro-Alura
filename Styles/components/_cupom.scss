@@ -13,7 +13,8 @@
     }
     .input {
         margin: 0 auto;
-        width: 575px;
+        width: 100%;
+        max-width: 575px;
         border: 4px solid white;
         border-radius: 20px;
         background-color: white;
@@ -52,3 +53,14 @@
     }
     
 }
+
+@media (max-width: 667px) {
+    #cupom {
+        .input {
+            input{
+                max-width: 225px;
+            }
+        }
+    }
+  }
+
